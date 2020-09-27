@@ -7,7 +7,7 @@ def load_library(path)
   emoticons = YAML.load_file(path)
   emoticons.each do |key, value|
     #puts "***** #{key}: #{value}"
-    #newHash[key][value]
+    newHash[key] = {}
     #puts "***** newHash = #{newHash}"
     binding.pry
   end
