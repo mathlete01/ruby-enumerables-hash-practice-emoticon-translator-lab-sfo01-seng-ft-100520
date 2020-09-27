@@ -5,18 +5,14 @@ require 'yaml'
 def load_library(path)
   newHash = {}
   emoticons = YAML.load_file(path)
-  #YAML.load_file(path)
-  newHash
-=begin
   emoticons.each do |key, value|
     #puts "***** #{key}: #{value}"
-    newHash[key][value]
-    puts "***** newHash = #{newHash}"
+    #newHash[key][value]
+    #puts "***** newHash = #{newHash}"
     binding.pry
   end
   newHash
-  binding.pry
-=end
+  #binding.pry
 end
 
 def get_japanese_emoticon
