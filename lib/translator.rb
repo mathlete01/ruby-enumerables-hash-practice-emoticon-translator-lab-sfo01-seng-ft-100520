@@ -8,7 +8,8 @@ def load_library(path)
   count = 0
   emoticons.each do |key, value|
     puts "***** #{key}: #{value}"
-    newHash[key]
+    newHash => key
+    newHash => value
   end
   newHash
   binding.pry
