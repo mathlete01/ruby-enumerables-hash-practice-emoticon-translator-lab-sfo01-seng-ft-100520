@@ -25,7 +25,7 @@ def get_english_meaning(path, emoticon_j)
   emoticons.each do |key, value|
     if value[1] == emoticon_j
       answer = key
-      binding.pry
+      #binding.pry
     end
   end
   answer
