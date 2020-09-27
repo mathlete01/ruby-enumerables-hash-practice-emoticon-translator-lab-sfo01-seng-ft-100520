@@ -23,7 +23,7 @@ def get_english_meaning(path, emoticon_j)
   answer = ""
   emoticons = YAML.load_file(path)
   emoticons.each do |key, value|
-    if value[1] == emoticon_j
+    if value[1] == emoticon_j do
       answer = value[0]
     end
   end
