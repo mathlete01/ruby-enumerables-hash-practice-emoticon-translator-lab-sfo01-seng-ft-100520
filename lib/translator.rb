@@ -8,8 +8,8 @@ def load_library(path)
   emoticons.each do |key, value|
     #puts "***** #{key}: #{value}"
     newHash[key] = {}
-    newHash[key][:english] = ""
-    newHash[key][:japanese] = ""
+    newHash[key][:english] = value[0]
+    newHash[key][:japanese] = value[1]
     #binding.pry
   end
   newHash
