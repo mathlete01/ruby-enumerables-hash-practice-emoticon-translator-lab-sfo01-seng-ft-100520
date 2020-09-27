@@ -11,6 +11,7 @@ def load_library(path)
     newHash[key]
   end
   newHash
+  binding.pry
 end
 
 def get_japanese_emoticon
