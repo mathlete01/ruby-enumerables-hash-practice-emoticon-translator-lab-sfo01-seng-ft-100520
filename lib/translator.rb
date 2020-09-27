@@ -21,7 +21,6 @@ def get_japanese_emoticon(path, emoticon_e)
   emoticons.each do |key, value|
     if value[0] == emoticon_e
       answer = value[1]
-      #binding.pry
     end
   end
   if answer == ""
