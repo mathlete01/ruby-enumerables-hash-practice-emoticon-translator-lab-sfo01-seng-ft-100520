@@ -27,5 +27,5 @@ def get_english_meaning(path, emoticon_j)
       answer = value[0]
     end
   end
-  newHash
+  answer
 end
