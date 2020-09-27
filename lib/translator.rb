@@ -3,8 +3,11 @@ require 'pry'
 require 'yaml'
 
 def load_library(path)
-  emoticons = YAML.load_file(path)
+  #emoticons = YAML.load_file(path)
   newHash = {}
+  YAML.load_file(path)
+  newHash
+=begin
   emoticons.each do |key, value|
     #puts "***** #{key}: #{value}"
     newHash[key][value]
@@ -13,6 +16,7 @@ def load_library(path)
   end
   newHash
   binding.pry
+=end
 end
 
 def get_japanese_emoticon
