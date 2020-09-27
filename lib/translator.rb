@@ -27,9 +27,11 @@ def get_english_meaning(path, emoticon_j)
       answer = key
       #binding.pry
     end
-    if answer == ""
-      return "Sorry, that emoticon was not found"
-    end
   end
-  answer
+  if answer == ""
+    return "Sorry, that emoticon was not found"
+  else
+    return answer
+  end
+  #answer
 end
