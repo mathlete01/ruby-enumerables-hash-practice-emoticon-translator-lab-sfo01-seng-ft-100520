@@ -10,7 +10,7 @@ def load_library(path)
     newHash[key] = {}
     newHash[key][:english] = value[0]
     newHash[key][:japanese] = value[1]
-    binding.pry
+    #binding.pry
   end
   newHash
   #binding.pry
