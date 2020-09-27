@@ -19,5 +19,5 @@ end
 
 def get_english_meaning(path, emoticon_j)
   load_library(path)
-  puts "emoticons = #{emoticons}
+  puts "emoticons = #{emoticons}"
 end
