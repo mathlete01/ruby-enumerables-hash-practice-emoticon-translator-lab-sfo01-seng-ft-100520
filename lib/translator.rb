@@ -9,7 +9,7 @@ def load_library(path)
     #puts "***** #{key}: #{value}"
     newHash[key] = {}
     #puts "***** newHash = #{newHash}"
-    binding.pry
+    #binding.pry
   end
   newHash
   #binding.pry
